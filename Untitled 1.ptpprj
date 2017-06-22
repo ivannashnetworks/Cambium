@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkPlanner file_version="2.0" app_version="4.5.3">
+    <MetaData>File created on Wed May 10 13:13:28 2017</MetaData>
+        
+
+    
+
+    <Project model="MODEL_VB" default_subscriber_height="10">
+    
+    <Antennas>
+        
+    </Antennas>
+    <SubscriberAntennas>
+        
+    </SubscriberAntennas>
+    <CustomFields>
+        <CustomFieldSet kind="access_point">
+            
+        </CustomFieldSet><CustomFieldSet kind="end">
+            
+        </CustomFieldSet><CustomFieldSet kind="hub">
+            
+        </CustomFieldSet><CustomFieldSet kind="link">
+            
+        </CustomFieldSet><CustomFieldSet kind="place">
+            
+        </CustomFieldSet><CustomFieldSet kind="project">
+            
+        </CustomFieldSet><CustomFieldSet kind="subscriber">
+            
+        </CustomFieldSet><CustomFieldSet kind="subscriber_place">
+            
+        </CustomFieldSet>
+    </CustomFields>
+    <CustomValues>
+        
+    </CustomValues>
+    <Templates>
+        <Template name="PTP Equipment template" e1t1_reliability_requirement="99.995" default="True" frame_size="None" licensed_tdm_availability_req="99.99">
+            <End name="local" antenna="c28b7c38-4a7c-4436-bd40-152209ce50f3" diverse_antenna="" diversity="5" diverse_frequency="None" feeder_length="10" antenna_height="10" use_user_eirp="0" transmit_frequency="None" user_power_mw="1000" minimum_reliability_requirement="99.99" mean_data_rate_requirement="5.0" feeder_loss="1" secondary_feeder_loss="1" mmu_model="N/A" feeder_type="LMR400" use_noise="0" minimum_data_rate_requirement="1.0" noise_density="-90" feeder_calculate="0" diverse_antenna_height="10" use_user_power="0" user_data_rate_cap="None" max_payload_bytes="0" user_eirp="40" user_power="18">
+                
+                <Equipment dual_payload="1" symmetry="Adaptive" stm1="N/A" sync="NONE" dynamic_payload="N/A" highest_mod_mode="ptp650_256qam81d" bandwidth="45" band_setting="N/A" lowest_telecoms_mode="N/A" band_start="N/A" band_stop="N/A" hop_pattern="N/A" max_mod_mode="N/A" mms_hop_offset="N/A" stm1_module="N/A" exclude_upper="N/A" los="N/A" regulation="AR_44_Private" modulation_mode="adaptive" master="Local" phase1_end="Local" frame_period="N/A" link_protection="N/A" ethernet_configuration="N/A" gb_ethernet_port="N/A" remote_mount="N/A" stm1_interface="N/A" product="PTP58650" tdm_module="N/A" color_code="N/A" tdm="NONE" exclude_lower="N/A" long_waveguide="N/A" aes_encryption="N/A" mini_io_interface="N/A" precise_network_timing="0" band="band58" hi="Local" capacity_key="N/A" io_connectivity="N/A" polarisation="N/A" header_compression="N/A" modulation_type="N/A" acm_1_mode="N/A" tdm_type="N/A" ptp_mode="N/A" license="AR_44_Private" capacity_variant="Full" lowest_ethernet_mode="ptp650_bpsk63s" dl_ul_ratio="N/A" downlink_data="N/A" licensed_tdm="N/A" atpc="N/A" sync_input="N/A" optimisation="IP" tr_spacing="N/A" min_mod_mode="N/A"/>
+                <CustomValues>
+        
+    </CustomValues>
+            </End><End name="remote" antenna="c28b7c38-4a7c-4436-bd40-152209ce50f3" diverse_antenna="" diversity="5" diverse_frequency="None" feeder_length="10" antenna_height="10" use_user_eirp="0" transmit_frequency="None" user_power_mw="1000" minimum_reliability_requirement="99.99" mean_data_rate_requirement="5.0" feeder_loss="1" secondary_feeder_loss="1" mmu_model="N/A" feeder_type="LMR400" use_noise="0" minimum_data_rate_requirement="1.0" noise_density="-90" feeder_calculate="0" diverse_antenna_height="10" use_user_power="0" user_data_rate_cap="None" max_payload_bytes="0" user_eirp="40" user_power="18">
+                
+                <Equipment dual_payload="1" symmetry="Adaptive" stm1="N/A" sync="NONE" dynamic_payload="N/A" highest_mod_mode="ptp650_256qam81d" bandwidth="45" band_setting="N/A" lowest_telecoms_mode="N/A" band_start="N/A" band_stop="N/A" hop_pattern="N/A" max_mod_mode="N/A" mms_hop_offset="N/A" stm1_module="N/A" exclude_upper="N/A" los="N/A" regulation="AR_44_Private" modulation_mode="adaptive" master="Local" phase1_end="Local" frame_period="N/A" link_protection="N/A" ethernet_configuration="N/A" gb_ethernet_port="N/A" remote_mount="N/A" stm1_interface="N/A" product="PTP58650" tdm_module="N/A" color_code="N/A" tdm="NONE" exclude_lower="N/A" long_waveguide="N/A" aes_encryption="N/A" mini_io_interface="N/A" precise_network_timing="0" band="band58" hi="Local" capacity_key="N/A" io_connectivity="N/A" polarisation="N/A" header_compression="N/A" modulation_type="N/A" acm_1_mode="N/A" tdm_type="N/A" ptp_mode="N/A" license="AR_44_Private" capacity_variant="Full" lowest_ethernet_mode="ptp650_bpsk63s" dl_ul_ratio="N/A" downlink_data="N/A" licensed_tdm="N/A" atpc="N/A" sync_input="N/A" optimisation="IP" tr_spacing="N/A" min_mod_mode="N/A"/>
+                <CustomValues>
+        
+    </CustomValues>
+            </End>
+            
+        
+        <BOM>
+        <OptionalExtras>
+            
+        </OptionalExtras>                
+        <UserEdits>
+            
+        </UserEdits>
+        <CustomNotes>
+            
+        </CustomNotes>                
+        </BOM>
+    
+        </Template>
+        
+    </Templates>
+    <Estimates>
+        <PTPEstimates>
+            
+        </PTPEstimates>
+        <PMPEstimates>
+            
+        
+        <Hub_BOM>
+        <OptionalExtras>
+            
+        </OptionalExtras>                
+        <UserEdits>
+            
+        </UserEdits>
+        <CustomNotes>
+            
+        </CustomNotes>                
+        </Hub_BOM>
+    
+            
+        </PMPEstimates>
+        <WiFiEstimates>
+            
+        </WiFiEstimates>
+    </Estimates>
+    <PMPChannelPlans>
+        <ChannelPlan raster="2.5" product="PMP49450i" name="Channel Plan 1" license="Ot_Other_120" band="band49" bandwidth="20" id="6371741a-6e27-42b6-86c1-2fc1345e7a4f">
+            <Channel index="0" frequency="4950.0"/><Channel index="1" frequency="4970.0"/>
+        </ChannelPlan>
+    </PMPChannelPlans>
+    <TddSyncGroups>
+        <TddSyncGroup frame_duration="0" max_burst_duration="0" v2="1"/>
+    </TddSyncGroups>
+    <Rules>
+        <Rule name="Does not meet requirements" format="1" stop_execution="0" disabled="0" hidesm="0" boolean="any" excluded="0" hidden="0" format_settings="{&#34;colour&#34;: &#34;#ff0000&#34;}" description="Link fails to meet performance requirements or has warnings">
+            <ExpressionGroup boolean="any">
+                <Expression comparison_value="False" predicate="equal to" property="link_ok">
+                </Expression>
+            </ExpressionGroup>
+        </Rule>
+    </Rules>
+    <Profiles>
+        <Profile fromlong="-80.11889" registered="1" tolat="26.68837" reflection_height="None" profile_requested="1" tolong="-80.09013" fromlat="26.68622">
+            
+                0.0,14.387296,0
+            
+                29.9199936672,15.9061953247,0
+            
+                59.8399873344,15.4910755553,0
+            
+                89.7599810016,14.4252988756,0
+            
+                119.679974669,12.8619648,0
+            
+                149.599968336,10.5069224951,0
+            
+                179.519962003,10.06559607,0
+            
+                209.439955671,11.5219634579,0
+            
+                239.359949338,11.3903671836,0
+            
+                269.279943005,9.59533018739,0
+            
+                299.199936672,9.0,0
+            
+                329.119930339,9.85930286095,0
+            
+                359.039924007,10.9377874713,0
+            
+                388.959917674,12.133567499,0
+            
+                418.879911341,13.0959349565,0
+            
+                448.799905008,13.8808447789,0
+            
+                478.719898675,11.905446459,0
+            
+                508.639892343,11.0164889841,0
+            
+                538.55988601,12.4436909038,0
+            
+                568.479879677,14.22753303,0
+            
+                598.399873344,15.0124584046,0
+            
+                628.319867012,14.5296655953,0
+            
+                658.239860679,13.6125473568,0
+            
+                688.159854346,10.2919860526,0
+            
+                718.079848013,7.60929016618,0
+            
+                747.99984168,8.54091435043,0
+            
+                777.919835348,11.0179537301,0
+            
+                807.839829015,11.5052688177,0
+            
+                837.759822682,10.9325630322,0
+            
+                867.679816349,10.7323354301,0
+            
+                897.599810016,11.1635851238,0
+            
+                927.519803684,12.2314931493,0
+            
+                957.439797351,12.4284507187,0
+            
+                987.359791018,10.8051139882,0
+            
+                1017.27978469,9.3354443675,0
+            
+                1047.19977835,7.83534925732,0
+            
+                1077.11977202,7.10598722243,0
+            
+                1107.03976569,7.9000398348,0
+            
+                1136.95975935,11.3840272953,0
+            
+                1166.87975302,14.9637451373,0
+            
+                1196.79974669,12.9356367284,0
+            
+                1226.71974036,10.6361173057,0
+            
+                1256.63973402,9.44757977976,0
+            
+                1286.55972769,10.3710196243,0
+            
+                1316.47972136,11.0260257583,0
+            
+                1346.39971502,11.0454717949,0
+            
+                1376.31970869,10.4748311483,0
+            
+                1406.23970236,9.18894615828,0
+            
+                1436.15969603,7.97186448375,0
+            
+                1466.07968969,7.94545632715,0
+            
+                1495.99968336,8.5284985455,0
+            
+                1525.91967703,7.98752642803,0
+            
+                1555.8396707,7.25219522452,0
+            
+                1585.75966436,7.38461681642,0
+            
+                1615.67965803,7.7483301915,0
+            
+                1645.5996517,8.14196513736,0
+            
+                1675.51964536,8.90954833958,0
+            
+                1705.43963903,8.51549458403,0
+            
+                1735.3596327,6.50277677605,0
+            
+                1765.27962637,2.94591578859,0
+            
+                1795.19962003,0.121126157959,0
+            
+                1825.1196137,0.94814998835,0
+            
+                1855.03960737,5.36681467792,0
+            
+                1884.95960103,9.71482321745,0
+            
+                1914.8795947,12.1173808866,0
+            
+                1944.79958837,12.4387666677,0
+            
+                1974.71958204,10.5389198259,0
+            
+                2004.6395757,9.54099493247,0
+            
+                2034.55956937,8.83552206464,0
+            
+                2064.47956304,8.89686903913,0
+            
+                2094.39955671,8.15078406281,0
+            
+                2124.31955037,5.83358081665,0
+            
+                2154.23954404,5.90352879266,0
+            
+                2184.15953771,7.08223308217,0
+            
+                2214.07953137,8.16475905145,0
+            
+                2243.99952504,7.94668158565,0
+            
+                2273.91951871,6.20076202485,0
+            
+                2303.83951238,4.87200748437,0
+            
+                2333.75950604,1.76334473422,0
+            
+                2363.67949971,4.14012274878,0
+            
+                2393.59949338,12.5028182057,0
+            
+                2423.51948704,18.1436513962,0
+            
+                2453.43948071,17.2748825689,0
+            
+                2483.35947438,13.210217039,0
+            
+                2513.27946805,9.13778986906,0
+            
+                2543.19946171,4.72610851073,0
+            
+                2573.11945538,1.11958251603,0
+            
+                2603.03944905,7.18613381001,0
+            
+                2632.95944271,15.3180290668,0
+            
+                2662.87943638,14.040081771,0
+            
+                2692.79943005,12.8849299918,0
+            
+                2722.71942372,16.1627878244,0
+            
+                2752.63941738,20.3529989439,0
+            
+                2782.55941105,21.7808848202,0
+            
+                2812.47940472,22.3277755492,0
+            
+                2842.39939839,23.4582699721,0
+            
+                2872.31939205,23.476448,0
+            
+        </Profile>
+    </Profiles>
+    <PMPRules>
+        <Rule name="Does not meet requirements" format="1" stop_execution="0" disabled="0" hidesm="0" boolean="any" excluded="0" hidden="0" format_settings="{&#34;colour&#34;: &#34;#ff0000&#34;}" description="Link fails to meet performance requirements or has warnings">
+            <ExpressionGroup boolean="any">
+                <Expression comparison_value="False" predicate="equal to" property="link_ok">
+                </Expression>
+            </ExpressionGroup>
+        </Rule>
+    </PMPRules>
+    <APRules>
+        <Rule name="Has warnings" format="1" stop_execution="0" disabled="0" hidesm="0" boolean="any" excluded="0" hidden="0" format_settings="{&#34;colour&#34;: &#34;#ff000096&#34;, &#34;text_colour&#34;: &#34;#ff0000&#34;}" description="The access point has warnings">
+            <ExpressionGroup boolean="any">
+                <Expression comparison_value="False" predicate="equal to" property="is_ok">
+                </Expression>
+            </ExpressionGroup>
+        </Rule>
+    </APRules>
+    <BestServer preferred_product_order="PMP-450i,PMP-450i ATEX/HAZLOC">
+        
+        <SubscriberVariant mod_mode="epmp_qpsk_5_s" antenna_height="10" fade_margin="0" family="ePMP">
+        </SubscriberVariant><SubscriberVariant mod_mode="pmp450_qpsk_mimo_a" antenna_height="10" fade_margin="0" family="PMP-450">
+        </SubscriberVariant><SubscriberVariant mod_mode="ptp700_bpsk63s" antenna_height="10" fade_margin="0" family="PTP-700-HCMP">
+        </SubscriberVariant>
+    </BestServer>
+    <Places>
+            <Place place_id="0" label_delta_y="0" label_delta_x="0" name="airport" user_hide="0" longitude="-80.09013" shape="circle" latitude="26.68837" height_asl="None" maximum_height="10">&lt;p&gt;Approximate profiles to nearby sites&lt;/p&gt;
+					 
+						
+						 &lt;ul&gt;
+							&lt;li&gt;Profile between airport and
+                                warehouse 1&lt;br&gt;
+							&lt;img src="http://profile.heywhatsthat.com/bin/profile.cgi?src=MTPTP&amp;metric=0&amp;axes=1&amp;curvature=1&amp;pt1=26.68622%2C-80.11889%2C%2C%2C&amp;pt0=26.68837%2C-80.09013%2C%2C%2C"&gt;
+							&lt;/li&gt;
+						 &lt;/ul&gt;
+						
+						
+						 &lt;ul&gt;
+							&lt;li&gt;Profile between airport and
+                                warehouse 2&lt;br&gt;
+							&lt;img src="http://profile.heywhatsthat.com/bin/profile.cgi?src=MTPTP&amp;metric=0&amp;axes=1&amp;curvature=1&amp;pt1=26.70342%2C-80.11376%2C%2C%2C&amp;pt0=26.68837%2C-80.09013%2C%2C%2C"&gt;
+							&lt;/li&gt;
+						 &lt;/ul&gt;
+						
+		
+			&lt;em&gt;
+			Profile images &amp;copy; 2008-2017 Michael Kosowsky.
+			All rights reserved. Used with permission. For more
+			information, visit
+			&lt;a href="http://www.heywhatsthat.com/"&gt;HeyWhatsThat&lt;/a&gt;
+			&lt;/em&gt;<CustomValues>
+        
+    </CustomValues>
+            </Place>
+    </Places>
+    <SubscriberPlaces>
+            <Place place_id="0" label_delta_y="0" label_delta_x="0" name="warehouse 1" user_hide="0" longitude="-80.11889" shape="circle" latitude="26.68622" height_asl="None" maximum_height="10">&lt;p&gt;Approximate profiles to nearby sites&lt;/p&gt;
+					 
+						
+						 &lt;ul&gt;
+							&lt;li&gt;Profile between warehouse 1 and
+                                warehouse 2&lt;br&gt;
+							&lt;img src="http://profile.heywhatsthat.com/bin/profile.cgi?src=MTPTP&amp;metric=0&amp;axes=1&amp;curvature=1&amp;pt1=26.70342%2C-80.11376%2C%2C%2C&amp;pt0=26.68622%2C-80.11889%2C%2C%2C"&gt;
+							&lt;/li&gt;
+						 &lt;/ul&gt;
+						
+						
+						 &lt;ul&gt;
+							&lt;li&gt;Profile between warehouse 1 and
+                                airport&lt;br&gt;
+							&lt;img src="http://profile.heywhatsthat.com/bin/profile.cgi?src=MTPTP&amp;metric=0&amp;axes=1&amp;curvature=1&amp;pt1=26.68837%2C-80.09013%2C%2C%2C&amp;pt0=26.68622%2C-80.11889%2C%2C%2C"&gt;
+							&lt;/li&gt;
+						 &lt;/ul&gt;
+						
+		
+			&lt;em&gt;
+			Profile images &amp;copy; 2008-2017 Michael Kosowsky.
+			All rights reserved. Used with permission. For more
+			information, visit
+			&lt;a href="http://www.heywhatsthat.com/"&gt;HeyWhatsThat&lt;/a&gt;
+			&lt;/em&gt;<CustomValues>
+        
+    </CustomValues>
+            </Place><Place place_id="1" label_delta_y="0" label_delta_x="0" name="warehouse 2" user_hide="0" longitude="-80.11376" shape="circle" latitude="26.70342" height_asl="None" maximum_height="10">&lt;p&gt;Approximate profiles to nearby sites&lt;/p&gt;
+					 
+						
+						 &lt;ul&gt;
+							&lt;li&gt;Profile between warehouse 2 and
+                                warehouse 1&lt;br&gt;
+							&lt;img src="http://profile.heywhatsthat.com/bin/profile.cgi?src=MTPTP&amp;metric=0&amp;axes=1&amp;curvature=1&amp;pt1=26.68622%2C-80.11889%2C%2C%2C&amp;pt0=26.70342%2C-80.11376%2C%2C%2C"&gt;
+							&lt;/li&gt;
+						 &lt;/ul&gt;
+						
+						
+						 &lt;ul&gt;
+							&lt;li&gt;Profile between warehouse 2 and
+                                airport&lt;br&gt;
+							&lt;img src="http://profile.heywhatsthat.com/bin/profile.cgi?src=MTPTP&amp;metric=0&amp;axes=1&amp;curvature=1&amp;pt1=26.68837%2C-80.09013%2C%2C%2C&amp;pt0=26.70342%2C-80.11376%2C%2C%2C"&gt;
+							&lt;/li&gt;
+						 &lt;/ul&gt;
+						
+		
+			&lt;em&gt;
+			Profile images &amp;copy; 2008-2017 Michael Kosowsky.
+			All rights reserved. Used with permission. For more
+			information, visit
+			&lt;a href="http://www.heywhatsthat.com/"&gt;HeyWhatsThat&lt;/a&gt;
+			&lt;/em&gt;<CustomValues>
+        
+    </CustomValues>
+            </Place><Place place_id="2" label_delta_y="0" label_delta_x="0" name="TEST" user_hide="0" longitude="-80.10451" shape="circle" latitude="26.69482" height_asl="None" maximum_height="10"><CustomValues>
+        
+    </CustomValues>
+            </Place>
+    </SubscriberPlaces>
+    <Links>
+        
+    </Links>
+    <Hubs>
+        <Hub place_id="0" name="airport">
+            <CustomValues>
+        
+    </CustomValues>
+            <AccessPoints>
+                <AccessPoint antenna="64c923a4-8647-4a49-9508-3bee32945d7c" label_delta_y="0" label_delta_x="0" antenna_azimuth="300" user_hide="0" number="1" shape="triangle" sm_antenna_height="10" tilt="0" use_noise="0" noise_density="-104" user_power="None" receive_target_level="-56" antenna_height="10" template_id="None" user_cable_loss="None" modelled_beamwidth="90.0" user_eirp="None">
+                <Equipment dual_payload="N/A" sync="N/A" highest_mod_mode="N/A" bandwidth="20" high_priority_channel="0" capacity="N/A" max_mod_mode="N/A" sm_registration_limit="N/A" phase1_end="Local" frame_period="2.5" resources="N/A" product="PMP49450i" control_slots="3" color_code="0" aes_encryption="1" band="band49" adjacent_channel_support="N/A" sync_source="N/A" sm_range="10" range_units="miles" license="Ot_OtherFCC_117" lowest_ethernet_mode="N/A" dl_ul_ratio="N/A" downlink_data="75" operating_mode="N/A" sync_input="AutoSync + Free Run" optimisation="N/A" broadcast_repeat_count="0"/>
+                <Subscribers>
+                    <Subscriber antenna="cf7f457e-6015-4021-bc6b-422cfa1f287f" place_id="0" label_delta_y="0" label_delta_x="0" antenna_height="10" ap_tilt="-0.190992610846" tilt="0.171619090469" use_noise="0" ap_antenna_gain="13.6816422724" noise_density="-104" shape="rectangle" antenna_azimuth="85.2362274756" user_cable_loss="None" dirty="0" sm_group="None" gain_warning="&#34;&#34;" end_warnings="[]" user_hide="0">
+                        <Equipment dual_payload="N/A" sync="N/A" highest_mod_mode="N/A" bandwidth="20" high_priority_channel="0" capacity="N/A" max_mod_mode="N/A" sm_registration_limit="N/A" phase1_end="Local" frame_period="2.5" resources="N/A" product="PMP49450i" control_slots="3" color_code="0" aes_encryption="1" band="band49" adjacent_channel_support="N/A" sync_source="N/A" sm_range="10" range_units="miles" license="Ot_OtherFCC_117" lowest_ethernet_mode="N/A" dl_ul_ratio="N/A" downlink_data="75" operating_mode="N/A" sync_input="AutoSync + Free Run" optimisation="N/A" broadcast_repeat_count="0"/>
+                        <Profile registered="1" region_code="US FL" reflection_height="None" profile_requested="1">
+                            
+                                0.0,23.476448,0
+                            
+                                29.9199936672,23.4582699721,0
+                            
+                                59.8399873344,22.3277755492,0
+                            
+                                89.7599810016,21.7808848202,0
+                            
+                                119.679974669,20.3529989439,0
+                            
+                                149.599968336,16.1627878244,0
+                            
+                                179.519962003,12.8849299918,0
+                            
+                                209.439955671,14.040081771,0
+                            
+                                239.359949338,15.3180290668,0
+                            
+                                269.279943005,7.18613381001,0
+                            
+                                299.199936672,1.11958251603,0
+                            
+                                329.119930339,4.72610851073,0
+                            
+                                359.039924007,9.13778986906,0
+                            
+                                388.959917674,13.210217039,0
+                            
+                                418.879911341,17.2748825689,0
+                            
+                                448.799905008,18.1436513962,0
+                            
+                                478.719898675,12.5028182057,0
+                            
+                                508.639892343,4.14012274878,0
+                            
+                                538.55988601,1.76334473422,0
+                            
+                                568.479879677,4.87200748437,0
+                            
+                                598.399873344,6.20076202485,0
+                            
+                                628.319867012,7.94668158565,0
+                            
+                                658.239860679,8.16475905145,0
+                            
+                                688.159854346,7.08223308217,0
+                            
+                                718.079848013,5.90352879266,0
+                            
+                                747.99984168,5.83358081665,0
+                            
+                                777.919835348,8.15078406281,0
+                            
+                                807.839829015,8.89686903913,0
+                            
+                                837.759822682,8.83552206464,0
+                            
+                                867.679816349,9.54099493247,0
+                            
+                                897.599810016,10.5389198259,0
+                            
+                                927.519803684,12.4387666677,0
+                            
+                                957.439797351,12.1173808866,0
+                            
+                                987.359791018,9.71482321745,0
+                            
+                                1017.27978469,5.36681467792,0
+                            
+                                1047.19977835,0.94814998835,0
+                            
+                                1077.11977202,0.121126157959,0
+                            
+                                1107.03976569,2.94591578859,0
+                            
+                                1136.95975935,6.50277677605,0
+                            
+                                1166.87975302,8.51549458403,0
+                            
+                                1196.79974669,8.90954833958,0
+                            
+                                1226.71974036,8.14196513736,0
+                            
+                                1256.63973402,7.7483301915,0
+                            
+                                1286.55972769,7.38461681642,0
+                            
+                                1316.47972136,7.25219522452,0
+                            
+                                1346.39971502,7.98752642803,0
+                            
+                                1376.31970869,8.5284985455,0
+                            
+                                1406.23970236,7.94545632715,0
+                            
+                                1436.15969603,7.97186448375,0
+                            
+                                1466.07968969,9.18894615828,0
+                            
+                                1495.99968336,10.4748311483,0
+                            
+                                1525.91967703,11.0454717949,0
+                            
+                                1555.8396707,11.0260257583,0
+                            
+                                1585.75966436,10.3710196243,0
+                            
+                                1615.67965803,9.44757977976,0
+                            
+                                1645.5996517,10.6361173057,0
+                            
+                                1675.51964536,12.9356367284,0
+                            
+                                1705.43963903,14.9637451373,0
+                            
+                                1735.3596327,11.3840272953,0
+                            
+                                1765.27962637,7.9000398348,0
+                            
+                                1795.19962003,7.10598722243,0
+                            
+                                1825.1196137,7.83534925732,0
+                            
+                                1855.03960737,9.3354443675,0
+                            
+                                1884.95960103,10.8051139882,0
+                            
+                                1914.8795947,12.4284507187,0
+                            
+                                1944.79958837,12.2314931493,0
+                            
+                                1974.71958204,11.1635851238,0
+                            
+                                2004.6395757,10.7323354301,0
+                            
+                                2034.55956937,10.9325630322,0
+                            
+                                2064.47956304,11.5052688177,0
+                            
+                                2094.39955671,11.0179537301,0
+                            
+                                2124.31955037,8.54091435043,0
+                            
+                                2154.23954404,7.60929016618,0
+                            
+                                2184.15953771,10.2919860526,0
+                            
+                                2214.07953137,13.6125473568,0
+                            
+                                2243.99952504,14.5296655953,0
+                            
+                                2273.91951871,15.0124584046,0
+                            
+                                2303.83951238,14.22753303,0
+                            
+                                2333.75950604,12.4436909038,0
+                            
+                                2363.67949971,11.0164889841,0
+                            
+                                2393.59949338,11.905446459,0
+                            
+                                2423.51948704,13.8808447789,0
+                            
+                                2453.43948071,13.0959349565,0
+                            
+                                2483.35947438,12.133567499,0
+                            
+                                2513.27946805,10.9377874713,0
+                            
+                                2543.19946171,9.85930286095,0
+                            
+                                2573.11945538,9.0,0
+                            
+                                2603.03944905,9.59533018739,0
+                            
+                                2632.95944271,11.3903671836,0
+                            
+                                2662.87943638,11.5219634579,0
+                            
+                                2692.79943005,10.06559607,0
+                            
+                                2722.71942372,10.5069224951,0
+                            
+                                2752.63941738,12.8619648,0
+                            
+                                2782.55941105,14.4252988756,0
+                            
+                                2812.47940472,15.4910755553,0
+                            
+                                2842.39939839,15.9061953247,0
+                            
+                                2872.31939205,14.387296,0
+                            
+                        </Profile>
+                        <PMPLink minimum_fade_margin_required_sm="0.0" user_hide="0" minimum_fade_margin_required_ap="0.0" minimum_availability_required_ap="99.9994" user_mod_mode_required_ap="pmp450i_16qam_mimo_a" error_messages="{&#34;remote&#34;: [], &#34;local&#34;: []}" required_attribute_sm="minimum_availability_required_sm" required_attribute_ap="minimum_availability_required_ap" minimum_availability_required_sm="99.999" user_mod_mode_required_sm="pmp450i_16qam_mimo_a" link_ok="true"/>
+                        <CustomValues>
+        
+    </CustomValues>
+                        
+        
+        <BOM>
+        <OptionalExtras>
+            
+        </OptionalExtras>                
+        <UserEdits>
+            
+        </UserEdits>
+        <CustomNotes>
+            
+        </CustomNotes>                
+        </BOM>
+    
+                    </Subscriber>
+                </Subscribers><Subscribers>
+                    <Subscriber antenna="cf7f457e-6015-4021-bc6b-422cfa1f287f" place_id="1" label_delta_y="0" label_delta_x="0" antenna_height="10" ap_tilt="-0.161780210913" tilt="0.142335486542" use_noise="0" ap_antenna_gain="15.1021763836" noise_density="-104" shape="rectangle" antenna_azimuth="125.33437832" user_cable_loss="None" dirty="0" sm_group="None" gain_warning="&#34;&#34;" end_warnings="[]" user_hide="0">
+                        <Equipment dual_payload="N/A" sync="N/A" highest_mod_mode="N/A" bandwidth="20" high_priority_channel="0" capacity="N/A" max_mod_mode="N/A" sm_registration_limit="N/A" phase1_end="Local" frame_period="2.5" resources="N/A" product="PMP49450i" control_slots="3" color_code="0" aes_encryption="1" band="band49" adjacent_channel_support="N/A" sync_source="N/A" sm_range="10" range_units="miles" license="Ot_OtherFCC_117" lowest_ethernet_mode="N/A" dl_ul_ratio="N/A" downlink_data="75" operating_mode="N/A" sync_input="AutoSync + Free Run" optimisation="N/A" broadcast_repeat_count="0"/>
+                        <Profile registered="1" region_code="US FL" reflection_height="None" profile_requested="1">
+                            
+                                0.0,23.476448,0
+                            
+                                29.7203721749,23.440857454,0
+                            
+                                59.4407443499,23.862214935,0
+                            
+                                89.1611165248,23.688779264,0
+                            
+                                118.8814887,19.807483142,0
+                            
+                                148.601860875,14.6805844205,0
+                            
+                                178.32223305,12.5414206905,0
+                            
+                                208.042605225,11.966623991,0
+                            
+                                237.762977399,12.5782463927,0
+                            
+                                267.483349574,11.2633570487,0
+                            
+                                297.203721749,8.40823065895,0
+                            
+                                326.924093924,6.91773126558,0
+                            
+                                356.644466099,6.83698998961,0
+                            
+                                386.364838274,7.39406522458,0
+                            
+                                416.085210449,7.2434317811,0
+                            
+                                445.805582624,8.83753081849,0
+                            
+                                475.525954799,10.7082040825,0
+                            
+                                505.246326974,12.2569905552,0
+                            
+                                534.966699149,12.9072458444,0
+                            
+                                564.687071324,13.7457012057,0
+                            
+                                594.407443499,13.6915484858,0
+                            
+                                624.127815674,13.0160559498,0
+                            
+                                653.848187848,12.5604469767,0
+                            
+                                683.568560023,12.9800948646,0
+                            
+                                713.288932198,12.9352347526,0
+                            
+                                743.009304373,11.4148305109,0
+                            
+                                772.729676548,9.68825162875,0
+                            
+                                802.450048723,8.81652084428,0
+                            
+                                832.170420898,9.0,0
+                            
+                                861.890793073,8.40413686658,0
+                            
+                                891.611165248,6.52935456315,0
+                            
+                                921.331537423,6.71902839489,0
+                            
+                                951.051909598,7.59107866676,0
+                            
+                                980.772281773,9.63602175117,0
+                            
+                                1010.49265395,11.4076575626,0
+                            
+                                1040.21302612,12.3630069012,0
+                            
+                                1069.9333983,10.9170109452,0
+                            
+                                1099.65377047,8.44059399642,0
+                            
+                                1129.37414265,7.20905478999,0
+                            
+                                1159.09451482,8.28067075216,0
+                            
+                                1188.814887,9.54487944301,0
+                            
+                                1218.53525917,9.55276285407,0
+                            
+                                1248.25563135,10.3680217309,0
+                            
+                                1277.97600352,13.3249287126,0
+                            
+                                1307.6963757,14.2216688565,0
+                            
+                                1337.41674787,12.5514741795,0
+                            
+                                1367.13712005,10.3992325782,0
+                            
+                                1396.85749222,9.70222315604,0
+                            
+                                1426.5778644,9.94450546746,0
+                            
+                                1456.29823657,10.2201908575,0
+                            
+                                1486.01860875,11.2530757776,0
+                            
+                                1515.73898092,11.8360126114,0
+                            
+                                1545.4593531,12.5738692266,0
+                            
+                                1575.17972527,10.5797687614,0
+                            
+                                1604.90009745,9.47313781501,0
+                            
+                                1634.62046962,9.15468148156,0
+                            
+                                1664.3408418,9.41291664693,0
+                            
+                                1694.06121397,9.97146121818,0
+                            
+                                1723.78158615,10.1752804412,0
+                            
+                                1753.50195832,10.9114541902,0
+                            
+                                1783.2223305,10.3828216719,0
+                            
+                                1812.94270267,9.78651312685,0
+                            
+                                1842.66307485,10.7155875032,0
+                            
+                                1872.38344702,12.1089154401,0
+                            
+                                1902.1038192,11.5259378239,0
+                            
+                                1931.82419137,10.0638680045,0
+                            
+                                1961.54456355,11.0400758543,0
+                            
+                                1991.26493572,13.0992368159,0
+                            
+                                2020.9853079,12.8069830812,0
+                            
+                                2050.70568007,12.666224926,0
+                            
+                                2080.42605225,12.1449667447,0
+                            
+                                2110.14642442,11.1148668465,0
+                            
+                                2139.8667966,11.2128554465,0
+                            
+                                2169.58716877,11.9079680398,0
+                            
+                                2199.30754094,12.1032714988,0
+                            
+                                2229.02791312,11.5194664433,0
+                            
+                                2258.74828529,9.81422048582,0
+                            
+                                2288.46865747,8.01204504317,0
+                            
+                                2318.18902964,6.51808333604,0
+                            
+                                2347.90940182,6.19390394576,0
+                            
+                                2377.62977399,7.44312734584,0
+                            
+                                2407.35014617,9.81790337003,0
+                            
+                                2437.07051834,11.4240538296,0
+                            
+                                2466.79089052,11.7294111692,0
+                            
+                                2496.51126269,11.8661631864,0
+                            
+                                2526.23163487,10.9781759365,0
+                            
+                                2555.95200704,9.01765838715,0
+                            
+                                2585.67237922,8.27290710218,0
+                            
+                                2615.39275139,8.35656150737,0
+                            
+                                2645.11312357,9.11343084808,0
+                            
+                                2674.83349574,9.75697144184,0
+                            
+                                2704.55386792,10.0,0
+                            
+                                2734.27424009,10.513676026,0
+                            
+                                2763.99461227,10.0780553666,0
+                            
+                                2793.71498444,10.6365438002,0
+                            
+                                2823.43535662,11.9768256248,0
+                            
+                                2853.15572879,13.9089013356,0
+                            
+                                2882.87610097,15.8255359964,0
+                            
+                        </Profile>
+                        <PMPLink minimum_fade_margin_required_sm="0.0" user_hide="0" minimum_fade_margin_required_ap="0.0" minimum_availability_required_ap="99.0" error_messages="{&#34;remote&#34;: [], &#34;local&#34;: []}" required_attribute_sm="minimum_availability_required_sm" required_attribute_ap="minimum_availability_required_ap" minimum_availability_required_sm="99.0" link_ok="true"/>
+                        <CustomValues>
+        
+    </CustomValues>
+                        
+        
+        <BOM>
+        <OptionalExtras>
+            
+        </OptionalExtras>                
+        <UserEdits>
+            
+        </UserEdits>
+        <CustomNotes>
+            
+        </CustomNotes>                
+        </BOM>
+    
+                    </Subscriber>
+                </Subscribers>
+                <CustomValues>
+        
+    </CustomValues>
+                
+        
+        <BOM>
+        <OptionalExtras>
+            <OptionalExtra part="PTP 650 AC+DC Enhanced Power Injector"/><OptionalExtra part="Universal GPS Module"/>
+        </OptionalExtras>                
+        <UserEdits>
+            <QuantityEdit id="PTP 650 AC+DC Enhanced Power Injector" quantity="2" original_quantity="1" delta="1"/>
+        </UserEdits>
+        <CustomNotes>
+            
+        </CustomNotes>                
+        </BOM>
+    
+                </AccessPoint>
+            </AccessPoints>
+            
+        
+        <BOM>
+        <OptionalExtras>
+            
+        </OptionalExtras>                
+        <UserEdits>
+            
+        </UserEdits>
+        <CustomNotes>
+            
+        </CustomNotes>                
+        </BOM>
+    
+        </Hub>
+    </Hubs>
+    <CustInfo comp_name="Nash" cust_name="Test"></CustInfo>
+    <Description></Description>
+    </Project>
+    <UI>
+        <Tree state="[[0], [0, 0], [0, 1], [0, 3], [0, 3, 0], [0, 3, 0, 0], [0, 4]]"/>
+    </UI>
+    <SaveLog>
+        <Save timestamp="2017-05-10T17:13:28.834366" hostname="MacBook-Pro-de-Felix-1251.local" name="IvanLoeza"/>
+    </SaveLog>
+</LinkPlanner>
